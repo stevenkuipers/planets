@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Hind|Inconsolata" rel="stylesheet">
+        <link rel="stylesheet" href="master.css">
+        <title>Planets in Space</title>
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        <div id="formContainer">
+            <form class="" action="index.html" method="post">
+                <h1>Planetary Control System</h1>
+                <output id="output" for="range">150</output>
+                <input id="range" name="range" type="range" min="0" max="200" step="10" value="150" oninput="inputChange(this.value)">
+            </form>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
